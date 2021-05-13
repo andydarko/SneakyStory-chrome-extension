@@ -1,0 +1,9 @@
+{
+  "author": "mr.andy darko",
+  "manifest_version": 2,
+  "name": "SneakyStory",
+  "version": "1.0",
+  "background": {"scripts": ["scripts/background.js"]},
+  "permissions": [ "webRequest", "webRequestBlocking", "tabs", "<all_urls>"],
+  "browser_action": {"default_icon": "icons/19_off.png", "default_title": "SneakyStory"}
+}
