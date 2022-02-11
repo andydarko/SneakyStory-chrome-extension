@@ -20,6 +20,6 @@ function blocker(){
     return {cancel: toggle};
   }, {
     types: ["xmlhttprequest"],
-    urls: ["https://www.instagram.com/stories/reel/seen"],
+    urls: ["https://i.instagram.com/api/v1/stories/reel/seen"],
   },["blocking"]);
 }
